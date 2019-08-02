@@ -6,15 +6,20 @@
     <meta name="renderer" content="webkit">
     <meta http-equiv="Cache-Control" content="no-siteapp">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/default.css?v=1.0.0">
+    <link rel="stylesheet" href="/css/default.min.css?v=1.0.0">
     <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.bootcss.com/font-awesome/5.10.0-12/css/all.min.css" rel="stylesheet">
+    <script src="//code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    
+    <script src="/js/scroll.js"></script>
+    
     
     <title>关于 | hexo-theme-XvA</title>
     
 </head>
 
 <body style="padding-top: 70px;">
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top"  onclick="a()">
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
@@ -57,6 +62,11 @@
         </div>
     </div>
 </nav>
+
+<div class="totop">
+<i class="fas fa-chevron-up fa-2x" onclick="totop()"></i>
+</div>
+
     <div class="container">
         
                 <article class="post">
@@ -78,8 +88,6 @@
         </div>
     </div>
     <footer>
-<script src="//code.jquery.com/jquery-3.3.1.min.js"
-                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <script src="/js/bootstrap.min.js"></script>
         
         <script src="/js/jquery.fancybox.min.js"></script>
@@ -89,7 +97,9 @@
         
         
         <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
+        
+        
+        <script src="/js/totop.js"></script>
         
         <div id="footer">Copyright © 2019 - 2019 <a href="/."
                         rel="nofollow">hexo-theme-XvA.</a><br>Powered by<a rel="nofollow" target="_blank"
