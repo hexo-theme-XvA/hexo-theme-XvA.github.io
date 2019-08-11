@@ -61,12 +61,12 @@ comment:
     shortname: 
     lazyload: true
   gitalk:
-    enable: false
-    owner:
-    repo:
+    enable: true
+    owner: hexo-theme-XvA
+    repo: comment
     oauth:
-      client_id:
-      client_secret:
+      client_id: 50ccdea3617dc9b66b87
+      client_secret: 4915cd20257dede1e085b31be8e242284fd23efd
 
 analytics:
   google:
