@@ -62,7 +62,7 @@ comment:
     lazyload: true
   gitalk:
     enable: true
-    owner: hexo-theme-xva
+    owner: hexo-theme-XvA
     repo: comment
     oauth:
       client_id: 50ccdea3617dc9b66b87
