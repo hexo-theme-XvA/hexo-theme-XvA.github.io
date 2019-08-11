@@ -67,6 +67,8 @@ comment:
     oauth:
       client_id: 50ccdea3617dc9b66b87
       client_secret: 4915cd20257dede1e085b31be8e242284fd23efd
+    admin:
+      - johnpoint
 
 analytics:
   google:
