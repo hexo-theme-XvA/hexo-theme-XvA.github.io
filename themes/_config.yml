@@ -76,7 +76,7 @@ analytics:
     id: 
   51LA:
       enable: false
-      script: 
+      id: 
   busuanzi: # 不蒜子网站统计
     enable: true
     text:
