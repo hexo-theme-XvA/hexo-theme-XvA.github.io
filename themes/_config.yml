@@ -74,7 +74,7 @@ analytics:
   google:
     enable: false
     id: 
-  51LA:
+  LA:
     enable: false
     id: 
   busuanzi: # 不蒜子网站统计
