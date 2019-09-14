@@ -20,7 +20,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-default navbar-fixed-top"  onclick="a()">
+    <section id="navv">
+        <nav class="navbar navbar-default">
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
@@ -37,25 +38,25 @@
                 
                 
                 <li>
-                
+                    
                     <a href="/">Home</a>
                 </li>
                 
                 
                 <li>
-                
+                    
                     <a href="/archives">Archives</a>
                 </li>
                 
                 
                 <li>
-                
+                    
                     <a href="/about">About</a>
                 </li>
                 
                 
                 <li>
-                
+                    
                     <a href="/friends">Friends</a>
                 </li>
                 
@@ -64,50 +65,53 @@
     </div>
 </nav>
 
+
 <div class="totop">
-<i class="fas fa-angle-double-up fa-3x" onclick="totop()"></i>
+    <i class="fas fa-angle-double-up fa-3x" onclick="totop()"></i>
 </div>
 <div class="daynight">
-<i class="fas fa-moon fa-2x" onclick="daynight()"></i>
-<i class="fas fa-sun fa-2x" onclick="daynight()"></i>
+    <i class="fas fa-moon fa-2x" onclick="daynight()"></i>
+    <i class="fas fa-sun fa-2x" onclick="daynight()"></i>
 </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-9 post-list">
-                
-                <div class="panel panel-default panel-post">
-                    <div class="panel-body">
-                        <h3><a href="/2018/12/25/排版测试/">排版测试</a><small class="post-time">
-                                2018-12-25</small></h3>
-                        <small><p>正文</small>
-                        <a class="btn btn-sm" href="/2018/12/25/排版测试/">readmore</a>
+    </section>
+    <section id="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 post-list">
+                    
+                    <div class="panel panel-default panel-post">
+                        <div class="panel-body">
+                            <h3><a href="/2018/12/25/排版测试/">排版测试</a><small class="post-time">
+                                    2018-12-25</small></h3>
+                            <small><p>正文</small>
+                            <a class="btn btn-sm" href="/2018/12/25/排版测试/">readmore</a>
+                        </div>
                     </div>
-                </div>
-                
-                <div class="panel panel-default panel-post">
-                    <div class="panel-body">
-                        <h3><a href="/2018/12/25/这一篇作者跟版权声明的不一样/">这一篇作者跟版权声明的不一样</a><small class="post-time">
-                                2018-12-25</small></h3>
-                        <small><p>正文</small>
-                        <a class="btn btn-sm" href="/2018/12/25/这一篇作者跟版权声明的不一样/">readmore</a>
+                    
+                    <div class="panel panel-default panel-post">
+                        <div class="panel-body">
+                            <h3><a href="/2018/12/25/这一篇作者跟版权声明的不一样/">这一篇作者跟版权声明的不一样</a><small class="post-time">
+                                    2018-12-25</small></h3>
+                            <small><p>正文</small>
+                            <a class="btn btn-sm" href="/2018/12/25/这一篇作者跟版权声明的不一样/">readmore</a>
+                        </div>
                     </div>
-                </div>
-                
-                <div class="panel panel-default panel-post">
-                    <div class="panel-body">
-                        <h3><a href="/2018/12/25/这一篇没有版权声明/">这一篇没有版权声明</a><small class="post-time">
-                                2018-12-25</small></h3>
-                        <small><p>正文</small>
-                        <a class="btn btn-sm" href="/2018/12/25/这一篇没有版权声明/">readmore</a>
+                    
+                    <div class="panel panel-default panel-post">
+                        <div class="panel-body">
+                            <h3><a href="/2018/12/25/这一篇没有版权声明/">这一篇没有版权声明</a><small class="post-time">
+                                    2018-12-25</small></h3>
+                            <small><p>正文</small>
+                            <a class="btn btn-sm" href="/2018/12/25/这一篇没有版权声明/">readmore</a>
+                        </div>
                     </div>
+                    
+                    
+                    <br>
                 </div>
-                
-                
-                <br>
-            </div>
-            <div class="col-md-3">
-                
+                <div class="col-md-3">
+                    
   <div class="panel panel-success">
     <div class="panel-heading">
         <h3 class="panel-title">TAG</h3>
@@ -146,10 +150,12 @@
     </div>
 </div>
 
+                </div>
             </div>
         </div>
-    </div>
-    <footer>
+    </section>
+    <section id="foot">
+<footer>
         <script src="/js/bootstrap.min.js"></script>
         
         <script src="/js/jquery.fancybox.min.js"></script>
@@ -175,4 +181,5 @@
                         位小伙伴~
                 </span></div>
 </footer>
+<section>
 </body>
