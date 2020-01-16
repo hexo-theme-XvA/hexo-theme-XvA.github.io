@@ -80,4 +80,6 @@ theme: XvA
 deploy:
   type:
 
-
+AdSense:
+  enable: false
+  google_ad_client: 
