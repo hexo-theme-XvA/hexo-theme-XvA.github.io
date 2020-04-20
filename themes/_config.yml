@@ -21,6 +21,13 @@ widget:
     count: 10
   friends:
     enable: true
+    
+bigimg: #首页巨幕图片
+  enable: true
+  background: 
+  RSS: # URL
+  Github: https://github.com/johnpoint #URL
+  Telegram: https://t.me/joinchat/AAAAAEFqQ5REyotgNh9yXQ #URL
 
 friends:
   pagetitle: 小伙伴们
