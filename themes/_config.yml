@@ -106,6 +106,10 @@ tagscloud:
 version: 3.3.0
 
 bigimg: #首页巨幕图片
-  enable: false
-  imgurl:
-  text:
+  enable: true
+  background: 
+  RSS: /atom.xml # URL
+  Github: https://github.com/hexo-theme-XvA #URL
+  Telegram:  #URL
+  Mail: 
+  wikipedia:
