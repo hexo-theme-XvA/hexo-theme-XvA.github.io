@@ -23,7 +23,7 @@ widget:
     enable: true
     
 bigimg: #首页巨幕图片
-  enable: true
+  enable: false
   background: 
   RSS: # URL
   Github: https://github.com/johnpoint #URL
