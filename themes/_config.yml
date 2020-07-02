@@ -88,7 +88,7 @@ analytics:
     enable: false
     id: 
   busuanzi: # 不蒜子网站统计
-    enable: true
+    enable: false
     text:
       head: 你是本站第 # 描述 示例:本站访客数 Example: view
       end: 位小伙伴~ # 描述 单位 示例:人次 Example: times
@@ -106,12 +106,3 @@ tagscloud:
     unit: px # 字体尺寸单位 Unit of font size
     
 version: 3.3.0
-
-bigimg: #首页巨幕图片
-  enable: true
-  background: 
-  RSS: /atom.xml # URL
-  Github: https://github.com/hexo-theme-XvA #URL
-  Telegram:  #URL
-  Mail: 
-  wikipedia:
